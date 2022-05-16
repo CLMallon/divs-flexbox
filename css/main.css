@@ -121,6 +121,8 @@ header, main, footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: auto;
+    width: 100%;
 }
 
 .div-1, .div-2, .div-3 {
