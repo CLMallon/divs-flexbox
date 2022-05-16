@@ -134,6 +134,18 @@ h1 {
     font-size: 3em;
 }
 
+.main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    font-size: 1.75em;
+    border-bottom: 1.5px solid #555;
+    padding-bottom: 35px;
+    margin: 0;
+}
+
 .div-1, .div-2, .div-3 {
   display: flex;
   justify-content: center;
