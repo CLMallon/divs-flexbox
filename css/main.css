@@ -125,6 +125,15 @@ header, main, footer{
     width: 100%;
 }
 
+h1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    font-size: 3em;
+}
+
 .div-1, .div-2, .div-3 {
   display: flex;
   justify-content: center;
