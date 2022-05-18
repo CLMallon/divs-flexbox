@@ -109,7 +109,7 @@ body {
   font-weight: 700;
   padding: 2em;
   color: #fff;
-  background: rgba(108, 122, 137, 0.5);
+  background: rgba(108, 122, 137, 0.5) no-repeat center center fixed;
   height: 100%;
 }
 
@@ -141,7 +141,7 @@ h1 {
     width: 100%;
     height: auto;
     font-size: 1.75em;
-    border-bottom: 1.5px solid #555;
+    border-bottom: 1.5px solid #fff;
     padding-bottom: 35px;
     margin: 0;
 }
@@ -167,7 +167,7 @@ footer {
    align-items: center;
    height: auto;
    width: 100%;
-   border-top: 1.5px solid #555;
+   border-top: 1.5px solid #fff;
    padding-top: 35px;
 }
 
@@ -273,7 +273,7 @@ img {
     }
 
     .div-1, .div-2 {
-      border-right: 1px solid #555;
+      border-right: 1px solid #fff;
       padding-right: 30px;
     }
 }
