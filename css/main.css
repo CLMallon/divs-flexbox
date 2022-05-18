@@ -98,6 +98,8 @@ textarea {
 
 html {
   background-color: black;
+  background: url(../img/highlands.jpg) no-repeat center center fixed;
+  background-size: cover;
   height: 100%;
   width: 100%;
 }
@@ -107,6 +109,7 @@ body {
   font-weight: 700;
   padding: 2em;
   color: #fff;
+  background: rgba(108, 122, 137, 0.5);
   height: 100%;
 }
 
@@ -144,6 +147,11 @@ h1 {
     border-bottom: 1.5px solid #555;
     padding-bottom: 35px;
     margin: 0;
+}
+
+span {
+    font-family: 'Lora', sans-serif;
+    font-size: 2em;
 }
 
 .div-1, .div-2, .div-3 {
