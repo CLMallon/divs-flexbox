@@ -110,7 +110,7 @@ body {
   padding: 2em;
   color: #fff;
   background: rgba(108, 122, 137, 0.5) no-repeat center center fixed;
-  height: 100%;
+  height: auto%;
 }
 
 .wrapper {
@@ -277,6 +277,15 @@ img {
       padding-right: 30px;
     }
 }
+
+    @media all and (min-width: 768px) {
+        body {
+            height: 100%;
+            overflow: hidden;
+        }
+}
+    
+    
 
    @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
